@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        //To autogenerate the carte item id
         [Key]
         public int CartItemId { get; set; }
 
